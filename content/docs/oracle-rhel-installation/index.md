@@ -110,17 +110,17 @@ export CV_ASSUME_DISTID=RHEL8.5
 ![](os_error.png)
 
 
-![](screenshots/1.png)
-![](screenshots/2.png)
-![](screenshots/3.png)
-![](screenshots/4.png)
-![](screenshots/5.png)
-![](screenshots/6.png)
-![](screenshots/7.png)
-![](screenshots/8.png)
-![](screenshots/9.png)
-![](screenshots/10.png)
-![](screenshots/11.png)
+![](https://i.imgur.com/hLbY4kt.png)
+![](https://i.imgur.com/9xuINtL.png)
+![](https://i.imgur.com/7ENP9hM.png)
+![](https://i.imgur.com/zZuWJvU.png)
+![](https://i.imgur.com/sIBXEQj.png)
+![](https://i.imgur.com/Ce16Gfa.png)
+![](https://i.imgur.com/FlGhzv7.png)
+![](https://i.imgur.com/26mtUOY.png)
+![](https://i.imgur.com/YCsy1Kz.png)
+![](https://i.imgur.com/d8La3WB.png)
+
 
 
 
