@@ -6,7 +6,8 @@ description: "Place Holder"
 tags: ["new", "docs"]
 series: ["Documentation"]
 series_order: 1
-heroStyle: background
+heroStyle: basic
+showHero: false
 
 
 ---
