@@ -6,7 +6,6 @@ description: "Place Holder"
 tags: ["new", "docs"]
 series: ["Documentation"]
 series_order: 1
-heroStyle: basic
 showHero: false
 
 
@@ -111,15 +110,18 @@ export CV_ASSUME_DISTID=RHEL8.5
 ![](os_error.png)
 
 
-![](1.png)
-![](2.png)
-![](3.png)
-![](4.png)
-![](5.png)
-![](6.png)
-![](7.png)
-![](8.png)
-![](9.png)
-![](20.png)
-![](11.png)
+![](screenshots/1.png)
+![](screenshots/2.png)
+![](screenshots/3.png)
+![](screenshots/4.png)
+![](screenshots/5.png)
+![](screenshots/6.png)
+![](screenshots/7.png)
+![](screenshots/8.png)
+![](screenshots/9.png)
+![](screenshots/10.png)
+![](screenshots/11.png)
+
+
+
 
