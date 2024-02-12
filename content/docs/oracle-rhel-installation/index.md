@@ -6,21 +6,25 @@ description: "Place Holder"
 tags: ["new", "docs"]
 series: ["Documentation"]
 series_order: 1
-heroStyle: big
+heroStyle: background
 
 
 ---
 
 
-#### 📘Oracle 19c Installation on Red Hat Enterprise Linux operating system
+
+{{< alert icon="check" cardColor="#00AD32" iconColor="#1d3557" textColor="#000000" >}}
+**Note:** This Guide is Production Ready and can also be deployed on UAT Environment Servers.
+{{< /alert >}}
 
 
-### Prerequisites
+
+## Prerequisites
 ```bash
 yum install libnsl* -y
 ```
 
-```bash title="If already done then ignore"
+```bash
 yum update -y
 ```
 ``` bash title="To check if Development Tools are installed"
@@ -64,7 +68,7 @@ su - oracle
 export CV_ASSUME_DISTID=RHEL8.5
 ```
 
-#### Update the .bash_profile
+### Update the .bash_profile
 ```title="Using vi editor"
 vi .bash_profile
 ```
@@ -95,4 +99,14 @@ Copy the Oracle Database Software in `ORACLE_HOME` location and unzip the softwa
 Oracle 19c DB Software Installation Wizard will appear.
 
 
+{{< alert icon="fire" cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}
+If you encounter the following error, then run the following command!
+{{< /alert >}}
+
+
+
 ![](os_error.png)
+
+```bash
+./runInstaller
+```
