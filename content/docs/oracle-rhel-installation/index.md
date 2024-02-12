@@ -14,8 +14,8 @@ showHero: false
 
 
 
-{{< alert icon="check" cardColor="#00AD32" iconColor="#1d3557" textColor="#000000" >}}
-**Note:** This Guide is Production Ready and can also be deployed on UAT Environment Servers.
+{{< alert icon="circle-info" cardColor="#00AD32" iconColor="#1d3557" textColor="#000000" >}}
+**Note:** This Guide is Production Ready.
 {{< /alert >}}
 
 
@@ -104,10 +104,22 @@ Oracle 19c DB Software Installation Wizard will appear.
 If you encounter the following error, then run the following command!
 {{< /alert >}}
 
-
+```
+export CV_ASSUME_DISTID=RHEL8.5
+```
 
 ![](os_error.png)
 
-```bash
-./runInstaller
-```
+
+![](1.png)
+![](2.png)
+![](3.png)
+![](4.png)
+![](5.png)
+![](6.png)
+![](7.png)
+![](8.png)
+![](9.png)
+![](20.png)
+![](11.png)
+
