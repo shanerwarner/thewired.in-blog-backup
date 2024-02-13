@@ -18,7 +18,7 @@ mainSections = ["docs"]
 disableImageOptimization = false
 disableTextInHeader = false
 
-defaultBackgroundImage = "/img/underwater.jpg"
+defaultBackgroundImage = "/img/wallhaven-57zp87.png"
 defaultFeaturedImage = "/img/ocean.jpg"
 
 highlightCurrentMenuArea = true
@@ -37,7 +37,7 @@ smartTOCHideUnfocusedChildren = false
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "/img/underwater.jpg" # used in: hero, and card
+  homepageImage = "/img/wallhaven-57zp87.png" # used in: hero, and card
   showRecent = true
   showRecentItems = 12
   showMoreLink = true
