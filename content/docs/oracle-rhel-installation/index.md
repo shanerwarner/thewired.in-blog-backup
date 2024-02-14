@@ -2,7 +2,7 @@
 title: "🚀 Oracle 19c Installation on RHEL 7.9"
 date: 2024-01-19
 draft: false
-description: "Place Holder"
+description: "Oracle 19c Installation on RHEL 7.9"
 tags: ["new", "docs"]
 series: ["Oracle 19c Installation and Database Creation"]
 series_order: 1
