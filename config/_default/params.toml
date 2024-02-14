@@ -37,11 +37,11 @@ smartTOCHideUnfocusedChildren = false
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "/img/wallhaven-57zp87.png" # used in: hero, and card
+  homepageImage = "/img/wallhaven-rdwe9q.png" # used in: hero, and card
   showRecent = true
   showRecentItems = 3
   showMoreLink = true
-  showMoreLinkDest = "/posts"
+  showMoreLinkDest = "/docs"
   cardView = true
   cardViewScreenWidth = true
   layoutBackgroundBlur = false # only used when layout equals background

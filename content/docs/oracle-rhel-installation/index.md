@@ -114,9 +114,11 @@ export NLS_LANG=american_america.al32utf8
 export NLS_DATE_FORMAT="yyyy-mm-dd:hh24:mi:ss"
 export PATH=$PATH:$HOME/.local/bin:$ORACLE_HOME/bin:$CLIENT_HOME/bin
 ```
+## 19c Installation
+
+Download the Oracle 19c Software from Oracle's Offical Website Copy it to  `$ORACLE_HOME` location, unzip the software and run below cmd
 
 
-Copy the Oracle Database Software in `ORACLE_HOME` location and unzip the software and run below cmd
 ```bash
 ./runInstaller
 ```
