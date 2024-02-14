@@ -12,14 +12,14 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
 
-mainSections = ["docs"]
+mainSections = ["posts","privacy-policy","blog"]
 # robots = ""
 
 disableImageOptimization = false
 disableTextInHeader = false
 
 defaultBackgroundImage = "/img/wallhaven-57zp87.png"
-defaultFeaturedImage = "/img/ocean.jpg"
+#defaultFeaturedImage = "/img/ocean.jpg"
 
 highlightCurrentMenuArea = true
 smartTOC = true
@@ -39,19 +39,19 @@ smartTOCHideUnfocusedChildren = false
   layout = "background" # valid options: page, profile, hero, card, background, custom
   homepageImage = "/img/wallhaven-57zp87.png" # used in: hero, and card
   showRecent = true
-  showRecentItems = 12
+  showRecentItems = 3
   showMoreLink = true
-  showMoreLinkDest = "docs"
+  showMoreLinkDest = "/posts"
   cardView = true
-  cardViewScreenWidth = false
+  cardViewScreenWidth = true
   layoutBackgroundBlur = false # only used when layout equals background
 
 [article]
-  showDate = false
+  showDate = true
   showViews = true
   showLikes = true
   showDateOnlyInArticle = false
-  showDateUpdated = false
+  showDateUpdated = true
   showAuthor = true
   showHero = true
   heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
