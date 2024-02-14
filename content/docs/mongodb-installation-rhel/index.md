@@ -14,49 +14,70 @@ showHero: false
 {{< /alert >}}
 
 ### 🔥 Expand the Section Below 🔥
-<details>
 
-<summary>Install the Following</summary>
+{{< timeline >}}
 
-### You can add a header
+{{< timelineItem icon="star" header="Step 1 of 9" subheader=" Select 'Setup Software Only'" >}}
+{{< gallery >}}
+  <img src="https://i.imgur.com/hLbY4kt.png" class="grid-w50" />
+{{< /gallery >}}
+{{< /timelineItem >}}
 
-```bash
-yum install libnsl* -y
-yum install -y bc    
-yum install -y binutils
-yum install -y compat-libcap1
-yum install -y compat-libstdc++-33
-yum install -y dtrace-utils
-yum install -y elfutils-libelf
-yum install -y elfutils-libelf-devel
-yum install -y fontconfig-devel
-yum install -y glibc
-yum install -y glibc-devel
-yum install -y ksh
-yum install -y libaio
-yum install -y libaio-devel
-yum install -y libdtrace-ctf-devel
-yum install -y libXrender
-yum install -y libXrender-devel
-yum install -y libX11
-yum install -y libXau
-yum install -y libXi
-yum install -y libXtst
-yum install -y libgcc
-yum install -y librdmacm-devel
-yum install -y libstdc++
-yum install -y libstdc++-devel
-yum install -y libxcb
-yum install -y make
-yum install -y net-tools # Clusterware
-yum install -y nfs-utils # ACFS
-yum install -y python # ACFS
-yum install -y python-configshell # ACFS
-yum install -y python-rtslib # ACFS
-yum install -y python-six # ACFS
-yum install -y targetcli # ACFS
-yum install -y smartmontools
-yum install -y sysstat
-```
+{{< timelineItem icon="star" header="Step 2 of 9" subheader=" Select 'Single Instance Database Only'" >}}
+{{< gallery >}}
+  <img src="https://i.imgur.com/9xuINtL.png" class="grid-w50" />
+{{< /gallery >}}
+{{< /timelineItem >}}
 
-</details>
+{{< timelineItem icon="star" header="Step 3 of 9" subheader=" Select 'Enterprise Edition'" >}}
+{{< gallery >}}
+  <img src="https://i.imgur.com/7ENP9hM.png" class="grid-w50" />
+{{< /gallery >}}
+{{< /timelineItem >}}
+
+{{< timelineItem icon="star" header="Step 4 of 9" subheader="Verify Oracle Base Location and Proceed to the Next Step" >}}
+{{< gallery >}}
+  <img src="https://i.imgur.com/zZuWJvU.png" class="grid-w50" />
+{{< /gallery >}}
+{{< /timelineItem >}}
+
+{{< timelineItem icon="star" header="Step 5 of 9" subheader="Verify Oracle Inventory Directory and Proceed to the Next Step" >}}
+{{< gallery >}}
+  <img src="https://i.imgur.com/sIBXEQj.png" class="grid-w50" />
+{{< /gallery >}}
+{{< /timelineItem >}}
+
+{{< timelineItem icon="star" header="Step 6 of 9" subheader="Verify the OS Groups created in the Prerequisite Step above" >}}
+{{< gallery >}}
+  <img src="https://i.imgur.com/Ce16Gfa.png" class="grid-w50" />
+{{< /gallery >}}
+{{< /timelineItem >}}
+
+{{< timelineItem icon="star" header="Step 7 of 9" subheader="Important" >}}
+Select the "Automatically run Configuration Scrips and.
+
+Select use "root" and enter the root Password Below
+{{< gallery >}}
+  <img src="https://i.imgur.com/FlGhzv7.png" class="grid-w50" />
+{{< /gallery >}}
+{{< /timelineItem >}}
+
+{{< timelineItem icon="star" header="Step 8 of 9" subheader="The Installer will perform the Prerequisite Checks before proceeding" >}}
+<ul>
+<li>Save the Response File once the Checks have been completed</li>
+</ul>
+{{< gallery >}}
+  <img src="https://i.imgur.com/26mtUOY.png" class="grid-w50" />
+  <img src="https://i.imgur.com/YCsy1Kz.png" class="grid-w50" />
+{{< /gallery >}}
+{{< /timelineItem >}}
+
+{{< timelineItem icon="star" header="Step 9 of 9" subheader="Progress of Oracle 19c Software will begin." >}}
+{{< gallery >}}
+  <img src="https://i.imgur.com/d8La3WB.png" class="grid-w50" />
+{{< /gallery >}}
+{{< /timelineItem >}}
+
+
+{{< /timeline >}}
+
