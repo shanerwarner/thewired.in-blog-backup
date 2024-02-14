@@ -4,7 +4,7 @@ date: 2024-01-19
 draft: false
 description: "Oracle 19c Installation on RHEL 7.9"
 tags: ["new", "docs"]
-series: ["Oracle 19c Installation and Database Creation"]
+series: ["Oracle 19c Installation and Single Instance Database Creation"]
 series_order: 1
 showRecent : true
 showHero: false
@@ -18,7 +18,8 @@ showDate: true
 
 
 
-## Prerequisites
+
+## Prerequisites 
 
 ### Install required X11 packages
 Install X11 packages with following command based on your operating system release and version:
@@ -167,7 +168,7 @@ Download the Oracle 19c Software from Oracle's Offical Website Copy it to  `$ORA
 ```bash
 ./runInstaller
 ```
-## Oracle 19c DB Software Installation Wizard will appear.
+### Oracle 19c DB Software Installation Wizard will appear.
 
 
 
@@ -237,6 +238,16 @@ Select use "root" and enter the root Password Below
 
 {{< /timeline >}}
 
+##### Once the Installation has Completed, Execute the following command to verify the sqlplus version.
 
+```bash
+sqlplus -v
+```
 
+##### You will get the Following Output:
 
+![](https://i.imgur.com/EKS7e8D.png)
+
+{{< lead >}}
+👾You have successfully installed Oracle Database 19c Software on Red Hat Enterprise Linux 7.9
+{{< /lead >}}
