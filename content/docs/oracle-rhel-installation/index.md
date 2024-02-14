@@ -1,11 +1,14 @@
 ---
 title: "Oracle 19 Installation on RHEL 9.xx"
-date: 2022-01-19
+date: 2024-01-19
 draft: false
 description: "Place Holder"
 tags: ["new", "docs"]
-series: ["Documentation"]
+series: ["Oracle 19c Installation and Database Creation"]
 series_order: 1
+showRecent : true
+showHero: false
+showDate: true
 ---
 
 

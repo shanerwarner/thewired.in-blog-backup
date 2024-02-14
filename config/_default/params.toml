@@ -12,7 +12,7 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
 
-mainSections = ["posts","privacy-policy","blog"]
+mainSections = ["docs"]
 # robots = ""
 
 disableImageOptimization = false
