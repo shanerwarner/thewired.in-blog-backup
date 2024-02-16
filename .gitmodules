@@ -2,3 +2,6 @@
 	path = themes/blowfish
 	url = https://github.com/nunocoracao/blowfish.git
 	branch = main
+[submodule "themes/hugomodo-cookie-consent"]
+	path = themes/hugomodo-cookie-consent
+	url = https://github.com/hugomodo/hugomodo-cookie-consent.git
