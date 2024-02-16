@@ -18,7 +18,7 @@ mainSections = ["docs"]
 disableImageOptimization = false
 disableTextInHeader = false
 
-defaultBackgroundImage = "/img/wallhaven-57zp87.png"
+defaultBackgroundImage = "/img/background1.png"
 #defaultFeaturedImage = "/img/ocean.jpg"
 
 highlightCurrentMenuArea = true
@@ -36,14 +36,14 @@ smartTOCHideUnfocusedChildren = false
   showScrollToTop = true
 
 [homepage]
-  layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "/img/wallhaven-rdwe9q.png" # used in: hero, and card
+  layout = "page" # valid options: page, profile, hero, card, background, custom
+  homepageImage = "/img/background1.png" # used in: hero, and card
   showRecent = true
   showRecentItems = 3
   showMoreLink = true
   showMoreLinkDest = "/docs"
   cardView = true
-  cardViewScreenWidth = true
+  cardViewScreenWidth = false
   layoutBackgroundBlur = false # only used when layout equals background
 
 [article]

@@ -1,4 +1,5 @@
 baseURL = 'https://thewired.in'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'thewired.in Blogspot'
 
+themes = ["hugomodo-cookie-consent",]

@@ -5,7 +5,7 @@ draft: false
 description: "Oracle 19c Installation on RHEL 7.9"
 tags: ["new", "docs"]
 series: ["Oracle 19c Installation and Single Instance Database Creation"]
-series_order: 1
+series_order: 2
 showRecent : true
 showHero: false
 showDate: true
