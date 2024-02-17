@@ -124,6 +124,9 @@
   {{ if templates.Exists "partials/extend-head.html" }}
   {{ partialCached "extend-head.html" .Site }}
   {{ end }}
+  {{/* Adsense */}}
+  {{ partial "adsense/adsense.html" .Site }}
+
   <meta name="theme-color"/>
   {{/* Firebase */}}
   {{ with $.Site.Params.firebase }}
