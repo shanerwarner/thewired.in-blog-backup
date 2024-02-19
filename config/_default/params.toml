@@ -36,13 +36,13 @@ smartTOCHideUnfocusedChildren = false
   showScrollToTop = true
 
 [homepage]
-  layout = "page" # valid options: page, profile, hero, card, background, custom
+  layout = "background" # valid options: page, profile, hero, card, background, custom
   homepageImage = "/img/background1.png" # used in: hero, and card
   showRecent = true
   showRecentItems = 3
   showMoreLink = true
   showMoreLinkDest = "/docs"
-  cardView = true
+  cardView = false
   cardViewScreenWidth = false
   layoutBackgroundBlur = false # only used when layout equals background
 
