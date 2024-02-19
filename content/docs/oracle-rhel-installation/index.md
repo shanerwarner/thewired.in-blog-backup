@@ -1,5 +1,5 @@
 ---
-title: "🚀 Oracle 19c Installation on RHEL 7.9"
+title: "Oracle 19c Installation on RHEL 7.9 🚀"
 date: 2024-01-19
 draft: false
 description: "Oracle 19c Installation on RHEL 7.9"
