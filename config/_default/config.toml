@@ -2,7 +2,7 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://blowfish.page/docs/getting-started/
 
-# theme = "slate"
+# theme = "blowfish"
 # baseURL = "https://thewired.in/"
 defaultContentLanguage = "en"
 
@@ -17,6 +17,7 @@ buildFuture = false
 
 googleAnalytics = "G-LNH5GE39WV"
 google_adsense = "ca-pub-2688861800172818"
+
 
 [imaging]
   anchor = 'Center'

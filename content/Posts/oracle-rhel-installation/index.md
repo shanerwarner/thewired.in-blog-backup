@@ -9,7 +9,12 @@ series_order: 2
 showRecent : true
 showHero: false
 showDate: true
+showSummary: true
 ---
+{{< lead >}}
+#### A step-by-step process to installing Oracle 19c Software for Single Instance Database on Red Hat Enterprise Linux 7.9
+
+{{< /lead >}}
 
 
 {{< alert icon="circle-info" cardColor="#00AD32" iconColor="#1d3557" textColor="#000000" >}}
@@ -247,6 +252,7 @@ sqlplus -v
 ##### You will get the Following Output:
 
 ![](https://i.imgur.com/EKS7e8D.png)
+![](screenshots/1.png)
 
 {{< lead >}}
 👾You have successfully installed Oracle Database 19c Software on Red Hat Enterprise Linux 7.9
