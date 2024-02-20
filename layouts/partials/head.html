@@ -1,14 +1,4 @@
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2688861800172818"
-     crossorigin="anonymous"></script>
-     <ins class="adsbygoogle"
-     style="display:inline-block;width:200px;height:800px"
-     data-ad-client="ca-pub-XXXX"
-     data-ad-slot="XXXX"></ins>
-     {{ partial "adsense.html" . }}
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
   <meta charset="utf-8" />
   {{ with .Site.Language.Params.htmlCode | default .Site.LanguageCode }}
   <meta http-equiv="content-language" content="{{ . }}" />
@@ -23,9 +13,6 @@
   <title>{{ .Title | emojify }} &middot; {{ .Site.Title | emojify }}</title>
   <meta name="title" content="{{ .Title | emojify }} &middot; {{ .Site.Title | emojify }}" />
   {{- end }}
-  {{/* Adsense */}}
-  {{ partial "adsense/adsense.html" .Site }}
-  {{ partial "adsense.html" . }}
   {{/* Metadata */}}
   {{ with (.Params.Summary | default .Params.Description) | default .Site.Params.description -}}
   <meta name="description" content="{{ . }}" />
@@ -111,8 +98,6 @@
   {{ with .Site.Params.verification.yandex }}
   <meta name="yandex-verification" content="{{ . }}" />
   {{ end }}
-  {{/* Adsense */}}
-  {{ partial "adsense/adsense.html" .Site }}
   {{/* Social */}}
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
@@ -127,11 +112,8 @@
   <link href="{{ $url }}" rel="me" />{{ end }}
   {{ end }}
   {{ end }}
-  {{/* Adsense */}}
-  {{ partial "adsense/adsense.html" .Site }}
   {{/* Vendor */}}
   {{ partial "vendor.html" . }}
-
   {{/* Analytics */}}
   {{ partial "analytics/main.html" .Site }}
   {{/* Extend head - eg. for custom analytics scripts, etc. */}}
@@ -164,6 +146,4 @@
   </script>
   {{ end }}
   {{ end }}
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2688861800172818"
-  crossorigin="anonymous"></script>
 </head>
